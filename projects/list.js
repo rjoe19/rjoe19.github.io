@@ -34,3 +34,5 @@ function itemKeypress (event) {
   
 }
 
+   inputs[i].addEventListener("keypress", itemKeypress);
+itemKeypress(event).call(inputs[0]);
