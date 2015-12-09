@@ -5,35 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ek+Mukta">
     <title>Welcome to Richard's blog</title>
   </head>
   <body>
-    <header>
-      <h1 id = "vader">The Blog of Richard Joe</h1>
+     <header>
+      <div class="row">
+           <h1>The Blog of Richard Joe</h1>
+            <div class="menu-wrap">
+                    <nav class="menu">
+                        <ul class="clearfix">                         
+                            <li><a href="#">Blog Posts<span class="arrow">&#9660;</span></a>           
+                                <ul class="sub-menu">
+                                    <li><a href="blog/c4-reflection-blog.html">Reflections</a></li>
+                                    <li><a href="blog/c4-time-and-habits-blog.html">Time and Habits</a></li>                                
+                                </ul>
+                            </li>                                                     
+                        </ul>
+                    </nav>
+                </div>
+       </div>       
     </header>
     <main>
-      <article>
-        <header>
-          <h2 id = "ewok">About Me</h2>
-          <div class = "yoda">
-            <p>I'm currently studying Web Dev at EDA and loving it!</p>
-            <p>Interests include tech, sports, gym and travel</p>
-            <p class = "key"> I hope to get involved in a tech startup one day</p>
-          </div>
-          <div class = "yolo">
-            <nav>
-              <ul>
-                <li><a href = "blog/c4-reflection-blog.html">The Blog of Richard Joe</a></li>
-                <li><a href = "blog/c4-time-and-habits-blog.html">The Time and Habit Blog of Richard Joe</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <img src = "pics/profilepic2.jpg" alt="Profile pic">
+      <article>        
+        <div class="grid">    
+           <div class="row">
+                <div class="col-6">
+                  <div class="transbox">
+                    <h2 >About Me</h2>   
+                    <p>
+                    <img src = "pics/profilepic2.jpg" alt="Profile pic" style="width300px; height:300px;" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidun. 
+                    </p>     
+                  </div>
+                </div>
+                <div class="col-6"> 
+                  <div class="transbox">
+                  <h2 >Details</h2>
+                    <ul >
+                      <li>I'm currently studying Web Dev at EDA and loving it!</li>
+                      <li> Interests include tech, sports, gym and travel</li>
+                      <li>I hope to get involved in a tech startup one day</li>
+                    </ul>
+                    <p>Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus.
+                    </p>
+                  </div>
+                </div>
+                </div>
+                </div>
       </article>
     </main>
     <footer id ="dontsteal">>
       <p> This blog is copyrighted</p>
     </footer>
-  </body>
+    </body>
 </html>
