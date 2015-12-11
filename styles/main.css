@@ -1,7 +1,7 @@
 /* GRID SYSTEM TEMPLATE*/
 
-
 /*
+
 * {
     border: 1px solid red !important;
 }
@@ -89,15 +89,20 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 350%;
+  margin-left: 30px;
+
 }
 
 h2 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 200%;
+  margin-left: 20px;
+
 }
 
 img {
   float:right;
+  margin-left: 50px;
 }
 
 div.transbox {
@@ -106,8 +111,10 @@ div.transbox {
   border: 1px solid black;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
-}
 
+
+
+}
 
 
 
@@ -122,13 +129,15 @@ div.transbox {
 .menu-wrap {
     width:30%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-    float:right;
+    margin-left: 300px;
+    margin-top: 30px;
+
+
 }
  
 .menu {
-    width:1000px;
-    margin:0px auto;
+  margin:0 auto;
+  
 }
  
 .menu li {
@@ -203,7 +212,39 @@ div.transbox {
     background:#3e3436;
 }
 
+/*set margins for 2 paragraphts */
+p.margin1 {
+    margin-left: 20px;
+}
 
+p.margin2 {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ellipseborder {
+    border-radius: 50%;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+} 
+
+#copyright {
+  color:#6600cc
+}
+
+
+/*hover effect for h1*/
+a:hover {
+background:url('http://www.addglitter.com/link-sparkle.gif');}hr{background-image:url('http://www.addglitter.com/link-sparkle.gif'); 
+</style><br /><a style="padding: 2px; background:#fff0f0; color:#000; font-family:arial; font-size:11px; 
+text-decoration:none; border:2px solid #d72727;" href="http://www.addglitter.com" target="_blank">Myspace Glitter Graphics</a>
+    
+
+}
 
 
 
