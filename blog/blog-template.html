@@ -4,100 +4,174 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Skeleton: Responsive CSS Boilerplate</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <title>Skeleton: Responsive CSS Boilerplate</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../../dist/css/normalize.css">
-  <link rel="stylesheet" href="../../dist/css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/bamboo.css">
 
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+    <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
 
 </head>
 <body>
 
+
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="section hero">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
-          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
-        </div>
-        <div class="one-half column phones">
-          <img class="phone" src="images/iphone.png">
-          <img class="phone" src="images/iphone.png">
-        </div>
+<!--
+
+  <header>
+     <div class="row" id ="navbar1">
+      <div class="one-half column">
+        <h1 class="websiteheader">Richard's Blog</h1>
       </div>
-    </div>
-  </div>
-
-  <div class="section values">
-    <div class="container">
-      <div class="row">
-        <div class="one-third column value">
-          <h2 class="value-multiplier">67%</h2>
-          <h5 class="value-heading">Purchase Increase</h5>
-          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">90%</h2>
-          <h5 class="value-heading">Multi-device Users</h5>
-          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">66%</h2>
-          <h5 class="value-heading">Sad Users</h5>
-          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-        </div>
+      <div class="one-half column">
+        <nav class="nav">
+          <ul>
+            <li><a href = "#">Home</a></li>
+            <li><a href = "projects/to-do.html">Projects</a></li>
+            <li><a href = "blog/blog-template.html">Blog</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </div>
+     </div>
+  
+  </header>
 
-  <div class="section get-help">
-    <div class="container">
-      <h3 class="section-heading">Need help getting started?</h3>
-      <p class="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
-      <a class="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
-    </div>
-  </div>
+-->
+  <nav id="main-nav" class="navigation overflow">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="/projects/to-do.html">Projects</a></li>
+    <li><a href="#">Blog</a></li>
+  </ul>
+</nav>
+<div id="container">
+  <header class="primary">
+    <span class="open icon">&#9776;</span>
+    <hgroup><h1 class= "websiteheader">Richard's Blog</h1></hgroup>
+  </header>
+  <section id="scroller" class="overflow">
+    <div id="content">
 
-  <div class="section categories">
-    <div class="container">
-      <h3 class="section-heading">Responsive Images</h3>
-      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
       <div class="row">
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
+          <div class="one-half column">
+            <a href = "c2-emotional-intelligence.html"><h2 class="subheading">Emotional Intelligence</h2> </a>
+            <img  src = "http://www.theemotionmachine.com/wp-content/uploads/Emotional-Intelligence.jpg" alt="emo pic">
+            <p>Search Inside Yourself - Chapter 4 </p>
+            <p>Did you connect with any of the analogies for the mind? </p>
+            <p> yes, the analogy of emotions being like a flag fluttering in the wind and mindfulness being like the flagpole, keeping the emotions centered was a good analogy for how we can maintain a third person perspective of ourselves and how to control our emotions and not fall victim to becoming them.....<a href = "c2-emotional-intelligence.html">See more</a>
+      
+
+
+
+            </p>
+
+          </div>
+          <div class="one-half column">
+          <a href = "c4-reflection-blog.html"><h2 class="subheading">Reflections</h2></a>
+          <img  src = "http://www.scaryforkids.com/pics/mirror-image.jpg" alt="profile pic">
+              <p>What's your take on the DBC / EDA experience? For me the pedagogical framework is a breath of fresh air.  As I've already been through the university system and found it to be an old and stale and out-moded method of learning, I think EDA is a great step forward.  It's far more practical, teaching industry required employment skills, student centered and the iteration process on course design is so rapid, which you wouldn't experience at uni....
+              <a href = "c4-reflection-blog.html">See more</a>
+              </p>
+        
+
+          </div>
         </div>
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
-        </div>
-      </div>
-    </div>
+
+        <div class="row">
+          <div class="one-half column">
+            <a href = "c4-time-and-habits-blog.html"><h2 class="subheading">Time and Habits</h2></a>
+            <img  src = "https://s-media-cache-ak0.pinimg.com/736x/3a/19/be/3a19bed0a970c0ba35d49adcd99cfde7.jpg" alt="profile pic">
+            <p>which timebox and habits techniques did you try? The Pomodoro technique but instead of only 25 minutes, I've been having 50 minutes of work followed by 10 mins break...<a href = "c4-time-and-habits-blog.html">See more</a>
+            </p>
+
+
+          </div>
+          <div class="one-half column">
+        <a href = "t2-html-css-dom-p1.html"><h2 class="subheading">HTML CSS Stuff part 1</h2></a>
+        <img  src = "http://yacinebaroudi.com/wp-content/uploads/2013/03/search_engine_friendly.jpg" alt="profile pic">
+            <p>
+            Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?
+            </p>
+            <p>
+             HTML stands for HyperText Markup Language and forms the basic building blocks of the webpage.  An analogy I would use is the overall structure of a building, the walls, floor, but not the interior design or the style of the site....<a href = "t2-html-css-dom-p1.html">See more</a>
+            </p>
+
+
+          <div class="row">
+          <div class="one-half column">
+            <a href = "t2-html-css-dom-p2.html"><h2 class="subheading">HTML CSS Stuff part 2</h2></a>
+            <img  src = "http://www.saversplanet.com/pics/matrix_med.jpg" alt="profile pic">
+            <p>A system comprised of horizontal and vertical lines which intersect and arrange content. In even more basic terms (which make it easier to understand!) a grid system is a way of providing a system that designers can work with to structure and present content and imagery in a much more readable, manageable way.  It helps to provide consistency in your designs....<a href = "t2-html-css-dom-p2.html">See more</a>
+            </p>
+
+
+          </div>
+        
+
+          </div>
   </div>
 
+</div>
+      <!-- Content goes in here -->
 
+      <!-- Content ends -->
+    </div>
+  </section>
+
+</div>
+
+  <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+  <script src="/js/bamboo.js"></script>
+
+  <script>
+  var site = new Bamboo({
+  menu: true,
+  breakpoint: 768,
+  menuWidth: 265,
+  headerHeight: 50,
+  resize: function(){
+    // function to call on page resize/orientation change
+  }
+  });
+
+  </script>
+
+
+  
+
+
+  
+
+
+<footer></footer>
 
 
 <!-- End Document
